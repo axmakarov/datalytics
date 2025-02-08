@@ -4,28 +4,12 @@ classDiagram
     Библиотека постов --> 💼 Управление и организация
     Библиотека постов --> 🤖 Технологии и инновации
     
-    Development --> Frontend
-    Development --> Backend
+    🧠 Личностное развитие --> Психология и самопознание
+    🧠 Личностное развитие --> Профессиональный рост
     
-    class Frontend {
-        +React
-        +Vue
+    Психология и самопознание --> Анатомия творческого страха
+    class Анатомия творческого страха {
     }
-    click Frontend href "https://example.com/frontend"
-    
-    class Backend {
-        +Node.js
-        +Python
-    }
-    click Backend href "https://example.com/backend"
-    
-    class Documentation {
-        +Technical_Specs
-        +User_Guide
-    }
-    
-    class Testing {
-        +Unit_Tests
-        +Integration_Tests
-    }
+    click Анатомия творческого страха href "https://t.me/kempleks/159"
+
 ```
