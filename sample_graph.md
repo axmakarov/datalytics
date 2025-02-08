@@ -3,11 +3,15 @@ mindmap
     root((Project Management))
         Development
             Frontend
-                React[React <a href='https://reactjs.org'>🔗</a>]
-                Vue[Vue <a href='https://vuejs.org'>🔗</a>]
+                React
+                click React "https://reactjs.org" "Visit React website"
+                Vue
+                click Vue "https://vuejs.org" "Visit Vue website"
             Backend
-                NodeJS[Node.js <a href='https://nodejs.org'>🔗</a>]
-                Python[Python <a href='https://python.org'>🔗</a>]
+                NodeJS
+                click NodeJS "https://nodejs.org" "Visit Node.js website"
+                Python
+                click Python "https://python.org" "Visit Python website"
         Documentation
             Tech[Technical Specs]
             Guide[User Guide]
