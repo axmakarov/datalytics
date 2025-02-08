@@ -1,8 +1,8 @@
 ```mermaid
 classDiagram
-    ProjectManagement --> Development
-    ProjectManagement --> Documentation
-    ProjectManagement --> Testing
+    Библиотека постов --> 🧠 Личностное развитие
+    Библиотека постов --> 💼 Управление и организация
+    Библиотека постов --> 🤖 Технологии и инновации
     
     Development --> Frontend
     Development --> Backend
