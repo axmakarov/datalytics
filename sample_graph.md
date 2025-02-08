@@ -11,13 +11,13 @@ classDiagram
         +React
         +Vue
     }
-    click Frontend "https://example.com/frontend" "Frontend Documentation"
+    click Frontend href "https://example.com/frontend"
     
     class Backend {
         +Node.js
         +Python
     }
-    click Backend "https://example.com/backend" "Backend Documentation"
+    click Backend href "https://example.com/backend"
     
     class Documentation {
         +Technical_Specs
@@ -31,14 +31,14 @@ classDiagram
     
     %% Add clickable links for specific technologies
     class React
-    click React "https://reactjs.org" "React Documentation"
+    click React href "https://reactjs.org"
     
     class Vue
-    click Vue "https://vuejs.org" "Vue Documentation"
+    click Vue href "https://vuejs.org"
     
     class Node.js
-    click Node.js "https://nodejs.org" "Node.js Documentation"
+    click Node.js href "https://nodejs.org"
     
     class Python
-    click Python "https://python.org" "Python Documentation"
+    click Python href "https://python.org"
 ```
