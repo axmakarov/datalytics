@@ -1,26 +1,21 @@
 ```mermaid
 mindmap
-    root((Библиотека постов))
-        🧠 Личностное развитие
-            Психология и самопознание
-                36 Анатомия творческого страха:::link
-                156 Одиночество творческой личности:::link
-                166 Трансформация личностных кризисов:::link
-                346 Природа внутренней неуверенности:::link
-            Профессиональный рост
-                86 Стратегическое карьерное планирование:::link
-                96 Эволюция профессиональной экспертизы:::link
-                216 Смысл профессиональной деятельности:::link
-                289 Осознанность ежедневного выбора:::link
-
-click 36 "https://t.me/kempleks/159"
-click 156 "https://t.me/kempleks/137"
-click 166 "https://t.me/kempleks/133"
-click 346 "https://t.me/kempleks/65"
-click 86 "https://t.me/datalytx/1177"
-click 96 "https://t.me/datalytx/1171"
-click 216 "https://t.me/kempleks/113"
-click 289 "https://t.me/kempleks/89"
-
-classDef link color:#0000EE,text-decoration:underline;
+  root((Project Management))
+    id1[Development]
+      id2[Frontend]
+        id3[React]
+          click id3 "https://reactjs.org" "Go to React"
+        id4[Vue]
+          click id4 "https://vuejs.org" "Go to Vue"
+      id5[Backend]
+        id6[Node.js]
+          click id6 "https://nodejs.org" "Go to Node.js"
+        id7[Python]
+          click id7 "https://python.org" "Go to Python"
+    id8[Documentation]
+      id9[Technical Specs]
+      id10[User Guide]
+    id11[Testing]
+      id12[Unit Tests]
+      id13[Integration Tests]
 ```
