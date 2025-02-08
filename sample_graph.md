@@ -28,17 +28,4 @@ classDiagram
         +Unit_Tests
         +Integration_Tests
     }
-    
-    %% Add clickable links for specific technologies
-    class React
-    click React href "https://reactjs.org"
-    
-    class Vue
-    click Vue href "https://vuejs.org"
-    
-    class Node.js
-    click Node.js href "https://nodejs.org"
-    
-    class Python
-    click Python href "https://python.org"
 ```
